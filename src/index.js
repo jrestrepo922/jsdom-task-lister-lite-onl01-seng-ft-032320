@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  let form = document.querySelector(" input#new-task-description")
+  let textInput = document.querySelector(" input#new-task-description")
   
   
   
