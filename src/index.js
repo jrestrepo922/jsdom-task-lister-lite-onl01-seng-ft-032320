@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   submit.addEventListener("click", (event) => {
     preventDefault();
     let tasks = document.querySelector("#tasks")
-    
+  
   });
   
 });
