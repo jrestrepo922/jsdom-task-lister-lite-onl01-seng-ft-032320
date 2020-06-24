@@ -13,6 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let task = document.createElement("li");
     // providing the text that will be display
     task.innerHTML = submit.value
+    // attaching the new li node to the ul list 
+    tasks.appendChild(task)
     
   });
   
