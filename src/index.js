@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
   
   
-  submit.addEventListener("click", function(event) {
+  submit.addEventListener("click", (addText) => {
     
     let textInput = document.querySelector(" input#new-task-description");
   });
