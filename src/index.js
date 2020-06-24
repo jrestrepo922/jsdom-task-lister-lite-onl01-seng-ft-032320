@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
   
   submit.addEventListener("click", (event) => {
-    preventDefault();
+    preventDefault(event);
     // finding the element where the tasks are 
     let tasks = document.querySelector("#tasks");
     // creating a list node to add the new task
