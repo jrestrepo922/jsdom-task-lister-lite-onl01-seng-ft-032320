@@ -3,7 +3,11 @@ document.addEventListener("DOMContentLoaded", () => {
   let textInput = document.querySelector(" input#new-task-description");
   let submit = document.querySelector('form input[type="submit"]')
   
-  submit.addEventListener("click", (addText))
+  
+  
+  submit.addEventListener("click", (addText) => {
+    
+  });
   
 });
 
