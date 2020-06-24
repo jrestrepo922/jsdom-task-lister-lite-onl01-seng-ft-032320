@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
   submit.addEventListener("click", (event) => {
     preventDefault();
-    let textInput = document.querySelector(" input#new-task-description");
+    let textInput = document.querySelector("input#new-task-description");
   });
   
 });
