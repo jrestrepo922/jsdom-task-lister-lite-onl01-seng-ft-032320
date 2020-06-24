@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // providing the text that will be display
     taskElement.innerHTML = task.value
     // attaching the new li node to the ul list 
-    tasks.appendChild(task)
+    tasks.appendChild(taskElement)
     
   });
   
